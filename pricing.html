@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pricing.css">
+    <title>Pricing Table</title>
+</head>
+<body>
+    
+    <div class="top-banner">
+        <p class="current-plan"> Your current Plan</p>
+        <p class="plan-type"> Starter Trial . 500PH</p>
+    </div>
+
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+      <div class="toggle-switch">
+            <span>Billed anually </span>
+            <input type="checkbox" class="toggler">
+            <span> Billed monthly</span>
+      </div>
+
+      <div class="cards">
+
+        <!-- Starter Plan -->
+          <div class="card" id="card-1">
+            <h1 class="card-title">Starter</h1>
+            <h2 class="card-price" id="starter-price"> $19 <span> / month</span> </h2>
+            <ul class="card-plan">
+                <li>300PH</li>
+                <li> Ad Free Entertainment</li>
+                <li>American Tv Shows</li>
+                <li>Hollywood Movies</li>
+                <li>New Movies</li>
+                <li>New Release</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="card active" id="card-2">
+            <h1 class="card-title">Pro</h1>
+            <h2 class="card-price" id="pro-price"> $99 <span> / month</span> </h2>
+          
+            <select  id="maus">
+                <option value="500">300PH </option>
+                <option value="100">400 PH</option>
+                <option value="1500">500 PH</option>
+                <option value="2000">600 PH</option>
+                <option value="2500">700 PH</option>
+            </select>
+            <span class="note"> Monthely active users </span>
+          
+            <ul class="card-plan">
+                <li> Acces to High Quality Movies </li>
+                <li> DOWNLOAD MOVIES </li>
+                <li> Get Lastest Movie </li>
+                
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Enterpise Card -->
+          <div class="card" id="card-3">
+            <h1 class="card-title">SUBCRIBE</h1>
+            <h2 class="card-price"> NOW </h2>
+            <ul class="card-plan">
+                <li> All pro featured</li>
+                <li> Unlimted MAUs</li>
+                <li> Detected enviroment</li>
+                <li> Enterprise account administration</li>
+                <li> Premium account and services</li>
+            </ul>
+            <a href="contactus.html"><button type="button" class="card-btn"> Contact Us</button></a>
+          </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
